@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Arya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Prince<span>Arya</span></a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="theme__toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://github.com" target="_blank" class="home__social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="home__social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="home__social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <div class="home__blob">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="12" y="18" href="assets/img/profile.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Prince 👋</h1>
+                        <h3 class="home__subtitle">Full Stack Developer</h3>
+                        <p class="home__description">
+                            Passionate about crafting beautiful web experiences with modern technologies. 
+                            Specialized in full-stack development with a focus on user-centric design.
+                        </p>
+                        <div class="home__buttons">
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="fas fa-paper-plane button__icon"></i>
+                            </a>
+                            <a href="#portfolio" class="button button--flex button--light">
+                                Portfolio <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__img">
+                    <img src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?w=400" alt="About image">
+                </div>
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Full Stack Developer with a passion for creating innovative web solutions. 
+                        I specialize in building scalable applications using modern technologies 
+                        and best practices. My focus is on delivering clean, efficient code and 
+                        exceptional user experiences.
+                    </p>
+
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fas fa-award about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">3+ Years</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">20+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-headset about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">24/7</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/resume.pdf" class="button button--flex">
+                            Download CV <i class="fas fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Professional Experience</h2>
+            <span class="section__subtitle">My Work Journey</span>
+
+            <div class="experience__container container">
+                <div class="experience__timeline">
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <div class="experience__icon"><i class="fas fa-briefcase"></i></div>
+                            <h3 class="experience__title">Senior Full Stack Developer</h3>
+                            <span class="experience__subtitle">Tech Solutions Inc.</span>
+                            <span class="experience__date">2023 - Present</span>
+                        </div>
+                        <div class="experience__content">
+                            <ul class="experience__list">
+                                <li class="experience__list-item">Led development of enterprise-level web applications</li>
+                                <li class="experience__list-item">Managed team of 5 developers and implemented Agile practices</li>
+                                <li class="experience__list-item">Reduced application load time by 40% through optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <div class="experience__icon"><i class="fas fa-code"></i></div>
+                            <h3 class="experience__title">Full Stack Developer</h3>
+                            <span class="experience__subtitle">Digital Innovations Co.</span>
+                            <span class="experience__date">2021 - 2023</span>
+                        </div>
+                        <div class="experience__content">
+                            <ul class="experience__list">
+                                <li class="experience__list-item">Developed and maintained multiple client websites</li>
+                                <li class="experience__list-item">Implemented responsive designs and modern UI/UX practices</li>
+                                <li class="experience__list-item">Integrated third-party APIs and payment gateways</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience__item">
+                        <div class="experience__header">
+                            <div class="experience__icon"><i class="fas fa-laptop-code"></i></div>
+                            <h3 class="experience__title">Junior Developer</h3>
+                            <span class="experience__subtitle">WebTech Startup</span>
+                            <span class="experience__date">2020 - 2021</span>
+                        </div>
+                        <div class="experience__content">
+                            <ul class="experience__list">
+                                <li class="experience__list-item">Assisted in front-end development tasks</li>
+                                <li class="experience__list-item">Created responsive layouts using modern CSS frameworks</li>
+                                <li class="experience__list-item">Participated in code reviews and team meetings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My Recent Work</span>
+
+            <div class="projects__container container">
+                <!-- Project 1: Spotify Clone -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=500" alt="Spotify Clone" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">Web Application</span>
+                        <h3 class="project__title">Spotify Clone</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">React</span>
+                            <span class="project__tag">Node.js</span>
+                            <span class="project__tag">MongoDB</span>
+                        </div>
+                        <p class="project__description">
+                            A full-featured music streaming platform with user authentication, playlist management, and real-time audio playback.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: E-Commerce Platform -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=500" alt="E-Commerce Platform" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">Web Application</span>
+                        <h3 class="project__title">E-Commerce Platform</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">Next.js</span>
+                            <span class="project__tag">Stripe</span>
+                            <span class="project__tag">PostgreSQL</span>
+                        </div>
+                        <p class="project__description">
+                            Modern e-commerce platform with secure payments, order management, and real-time inventory tracking.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: 3D Racing Game -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=500" alt="Racing Game" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">Game Development</span>
+                        <h3 class="project__title">3D Racing Game</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">Three.js</span>
+                            <span class="project__tag">WebGL</span>
+                            <span class="project__tag">JavaScript</span>
+                        </div>
+                        <p class="project__description">
+                            Browser-based 3D racing game with realistic physics, multiplayer support, and custom track creation.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: AI Chat Application -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=500" alt="AI Chat App" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">AI Application</span>
+                        <h3 class="project__title">AI Chat Application</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">OpenAI</span>
+                            <span class="project__tag">Vue.js</span>
+                            <span class="project__tag">Firebase</span>
+                        </div>
+                        <p class="project__description">
+                            Real-time chat application powered by AI, featuring smart responses and language translation.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Fitness Tracker -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500" alt="Fitness Tracker" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">Mobile App</span>
+                        <h3 class="project__title">Fitness Tracker</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">React Native</span>
+                            <span class="project__tag">Redux</span>
+                            <span class="project__tag">GraphQL</span>
+                        </div>
+                        <p class="project__description">
+                            Comprehensive fitness tracking app with workout plans, progress monitoring, and social features.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Weather Dashboard -->
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500" alt="Weather Dashboard" class="project__img">
+                    <div class="project__content">
+                        <span class="project__subtitle">Web Application</span>
+                        <h3 class="project__title">Weather Dashboard</h3>
+                        <div class="project__tags">
+                            <span class="project__tag">Angular</span>
+                            <span class="project__tag">D3.js</span>
+                            <span class="project__tag">Weather API</span>
+                        </div>
+                        <p class="project__description">
+                            Interactive weather dashboard with real-time updates, forecasting, and data visualization.
+                        </p>
+                        <a href="#" class="project__button">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <div class="subscribe__content">
+                    <h2 class="subscribe__title">Subscribe to My Newsletter</h2>
+                    <p class="subscribe__description">
+                        Get updates about my latest projects and tech articles directly in your inbox.
+                    </p>
+                    <form class="subscribe__form">
+                        <input type="email" placeholder="Enter your email" class="subscribe__input">
+                        <button type="submit" class="button button--red">
+                            Subscribe <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fas fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">your.email@example.com</span>
+                            <a href="mailto:your.email@example.com" class="contact__button">
+                                Write me <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="fab fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">+1234567890</span>
+                            <a href="https://wa.me/1234567890" target="_blank" class="contact__button">
+                                Write me <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="fab fa-linkedin contact__card-icon"></i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="contact__card-data">Prince Arya</span>
+                            <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact__button">
+                                Write me <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="name" class="contact__form-input" placeholder="Enter your name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="email" class="contact__form-input" placeholder="Enter your email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="project" cols="30" rows="10" class="contact__form-input" placeholder="Tell me about your project"></textarea>
+                        </div>
+
+                        <button type="submit" class="button button--flex">
+                            Send Message <i class="fas fa-paper-plane button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <h3 class="footer__title">Prince Arya</h3>
+                <p class="footer__description">
+                    Full Stack Developer creating innovative web solutions with modern technologies.
+                </p>
+                <div class="footer__social">
+                    <a href="https://github.com" target="_blank" class="footer__social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="footer__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="footer__social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">Web Development</a></li>
+                    <li><a href="#" class="footer__link">UI/UX Design</a></li>
+                    <li><a href="#" class="footer__link">Mobile Development</a></li>
+                    <li><a href="#" class="footer__link">Brand Identity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__list">
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Info</h3>
+                <ul class="footer__list">
+                    <li><i class="fas fa-map-marker-alt"></i> New Delhi, India</li>
+                    <li><i class="fas fa-phone"></i> +91 1234567890</li>
+                    <li><i class="fas fa-envelope"></i> contact@princearya.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__copy">
+            <p> 2025 Prince Arya. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
